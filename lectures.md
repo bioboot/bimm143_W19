@@ -5,53 +5,33 @@ menu: true
 order: 2
 ---
 
-All Lectures are Tu/Th 9:00-12:00 pm in Warren Lecture Hall 2015 (WLH 2015) ([Map](https://goo.gl/maps/yPnFEypdSCM2)). Clicking on the class topics below will take you to corresponding lecture notes, homework assignments, pre-class video screen-casts and required reading material.   
 
+All Lectures are Tu/Th 9:00-12:00 pm in TATA 2501 (<a href="https://goo.gl/maps/Cd8z9Zexx6q">Map</a>). Clicking on the class topics below will take you to corresponding lecture notes, homework assignments, pre-class video screen-casts and required reading material.
 
-| \#  | Date | **Topics for Fall 2018** |
-| :---: | -------- | :--- |
-| 1 | Tu, 10/02 | [**Welcome to Bioinformatics**](#1)  <br> Course introduction, Leaning goals &amp; expectations, Biology is an information science, History of Bioinformatics, Types of data, Application areas and introduction to upcoming course segments, Hands on with major Bioinformatics databases and key online NCBI and EBI resources  | 
-|   |   |   |
-| 2 | Th, 10/04 | [**Sequence alignment fundamentals, algorithms and applications**](#2) <br> Homology, Sequence similarity, Local and global alignment, classic Needleman-Wunsch, Smith-Waterman and BLAST heuristic approaches, Hands on with dot plots, Needleman-Wunsch and BLAST algorithms highlighting their utility and limitations | 
-|   |   |   |
-| 3 | Tu, 10/09 | [**Advanced sequence alignment and database searching**](#3) <br> Detecting remote sequence similarity, Database searching beyond BLAST, Substitution matrices, Using PSI-BLAST, Profiles and HMMs, Protein structure comparisons | 
-|   |   |   |
-| 4 | Th, 10/11 | [**Bioinformatics data analysis with R**](#4) <br> Why do we use R for bioinformatics? R language basics and the RStudio IDE, Major R data structures and functions, Using R interactively from the RStudio console  | 
-|   |   |   |
-| 5 | Tu, 10/16 | [**Data exploration and visualization in R**](#5) <br> The exploratory data analysis mindset, Data visualization best practices, Using and customizing base graphics (scatterplots, histograms, bar graphs and boxplots), Building more complex charts with ggplot and rgl | 
-|   |   |   |
-| 6 | Th, 10/18 | [**Why, when and how of writing your own R functions**](#6) <br> The basics of writing your own functions that promote code robustness, reduce duplication and facilitate code re-use | 
-|   |   |   |
-| 7 | Tu, 10/23 | [**Bioinformatics R packages from CRAN and BioConductor**](#7) <br> Extending functionality and utility with R packages, Obtaining R packages from CRAN and BioConductor, Working with Bio3D for molecular data | 
-|   |   |   |
-| 8 | Th, 10/25 | [**Introduction to Machine Learning for Bioinformatics 1**](#8) <br> Unsupervised learning, K-means clustering, Hierarchical clustering, Heatmap representations. Dimensionality reduction, Principal Component Analysis (PCA)  | 
-|   |   |   |
-| 9 | Tu, 10/30 | [**Unsupervised Learning Mini-Project**](#9) <br> Longer hands-on session with unsupervised learning analysis of cancer cells further highlighting Practical considerations and best practices for the analysis and visualization of high dimensional datasets | 
-|   |   |   |
-| 10 | Th, 11/01 | **Project:** [**Find a gene assignment (Part 1)**](#10) <br> Principles of database searching, sequence analysis, structure analysis along with [**Hands-on with Git**](#10) <br> How to perform common operations with the Git version control system. We will also cover the popular social code-hosting platforms GitHub and BitBucket.  | 
-|   |   |   |
-| 11 | Tu, 11/06 | [**Structural Bioinformatics (Part 1)**](#11) <br> Protein structure function relationships, Protein structure and visualization resources, Modeling energy as a function of structure | 
-|   |   |   |
-| 12 | Th, 11/08 | [**Bioinformatics in drug discovery and design**](#12) <br> Target identification, Lead identification, Small molecule docking methods, Protein motion and conformational variants, Molecular simulation and drug optimization | 
-|   |   |   |
-| 13 | Tu, 11/13 | [**Genome informatics and high throughput sequencing (Part 1)**](#13) <br> Genome sequencing technologies past, present and future; Biological applications of sequencing, Analysis of variation in the genome, and gene expression; The Galaxy platform along with resources from the EBI & UCSC; Sample Galaxy RNA-Seq workflow with FastQC and Bowtie2 | 
-|   |   |   |
-| 14 | Th, 11/15 | [**Transcriptomics and the analysis of RNA-Seq data**](#14) <br> RNA-Seq aligners, Differential expression tests, RNA-Seq statistics, Counts and FPKMs and avoiding P-value misuse, Hands-on analysis of RNA-Seq data with R. <br> **N.B.** Find a gene assignment part 1 due today!| 
-|   |   |   |
-| 15 | Tu, 11/20 | [**Genome annotation and the interpretation of gene lists**](#15) <br> Gene finding and functional annotation, Functional databases KEGG, InterPro, GO ontologies and functional enrichment | 
-|   |   |   |
-| - | Th, 11/22 | [**Happy Thanksgiving!**]()  | 
-|   |   |   |
-| 16 | Tu, 11/27 | [**Biological network analysis**](#16) <br> Network based approaches for integrating and interpreting large heterogeneous high throughput data sets; Discovering relationships in 'omics' data; Network construction, manipulation, visualization and analysis; Major graph theory and network topology measures and concepts (Degree, Communities, Shortest Paths, Centralities, Betweenness, Random graphs vs scale free); Hands-on with Cytoscape and igraph packages. | 
-|   |   |   |
-| 17 | Th, 11/29 | [**Cancer genomics**](#18) <br> Cancer genomics resources and bioinformatics tools for investigating the molecular basis of cancer. Mining the NCI Genomic Data Commons; Immunoinformatics and immunotherapy; Using genomics and bioinformatics to design a personalized cancer vaccine. Implications for personalized medicine. <br> **N.B.** Find a gene assignment due on Tuesday 03/13!  | 
-|   |   |   |
-| 18 | Tu, 12/04 | [**Course summary**](#19) <br> Summary of learning goals, Student course evaluation time and exam preparation; **Find a gene assignment due!** | 
-|   |   |   |
-| 19 | Th, 12/06 | [**Final exam!**](#20)  | 
-|   |   |   | 
+|  \# | Date         | Topics for Winter 2019                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+|:---:|:-------------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|  1  | Tue 01/08/19 | [**Welcome to Bioinformatics**](#1) <br> Course introduction, Leaning goals & expectations, Biology is an information science, History of Bioinformatics, Types of data, Application areas and introduction to upcoming course segments, Hands on with major Bioinformatics databases and key online NCBI and EBI resources                                                                                                                                               |
+|  2  | Thu 01/10/19 | [**Sequence alignment fundamentals, algorithms and applications**](#2) <br> Homology, Sequence similarity, Local and global alignment, classic Needleman-Wunsch, Smith-Waterman and BLAST heuristic approaches, Hands on with dot plots, Needleman-Wunsch and BLAST algorithms highlighting their utility and limitations                                                                                                                                                 |
+|  3  | Tue 01/15/19 | [**Advanced sequence alignment and database searching**](#3) <br> Detecting remote sequence similarity, Database searching beyond BLAST, Substitution matrices, Using PSI-BLAST, Profiles and HMMs, Protein structure comparisons                                                                                                                                                                                                                                         |
+|  4  | Thu 01/17/19 | [**Bioinformatics data analysis with R**](#4) <br> Why do we use R for bioinformatics? R language basics and the RStudio IDE, Major R data structures and functions, Using R interactively from the RStudio console                                                                                                                                                                                                                                                       |
+|  5  | Tue 01/22/19 | [**Data exploration and visualization in R**](#5) <br> The exploratory data analysis mindset, Data visualization best practices, Using and customizing base graphics (scatterplots, histograms, bar graphs and boxplots), Building more complex charts with ggplot and rgl                                                                                                                                                                                                |
+|  6  | Thu 01/24/19 | [**Why, when and how of writing your own R functions**](#6) <br> The basics of writing your own functions that promote code robustness, reduce duplication and facilitate code re-use                                                                                                                                                                                                                                                                                     |
+|  7  | Tue 01/29/19 | [**Bioinformatics R packages from CRAN and BioConductor**](#7) <br> Extending functionality and utility with R packages, Obtaining R packages from CRAN and BioConductor, Working with Bio3D for molecular data                                                                                                                                                                                                                                                           |
+|  8  | Thu 01/31/19 | [**Introduction to machine learning for Bioinformatics 1**](#8) <br> Unsupervised learning, K-means clustering, Hierarchical clustering, Heatmap representations. Dimensionality reduction, Principal Component Analysis (PCA)                                                                                                                                                                                                                                            |
+|  9  | Tue 02/05/19 | [**Unsupervised learning mini-project**](#9) <br> Longer hands-on session with unsupervised learning analysis of cancer cells further highlighting Practical considerations and best practices for the analysis and visualization of high dimensional datasets                                                                                                                                                                                                            |
+|  10 | Thu 02/07/19 | **Project:** [**Find a gene assignment (Part 1)**](#10) <br> Principles of database searching, sequence analysis, structure analysis along with [**Hands-on with Git**](#10) <br> How to perform common operations with the Git version control system. We will also cover the popular social code-hosting platforms GitHub and BitBucket.                                                                                                                                |
+|  11 | Tue 02/12/19 | [**Structural Bioinformatics (Part 1)**](#11) <br> Protein structure function relationships, Protein structure and visualization resources, Modeling energy as a function of structure                                                                                                                                                                                                                                                                                    |
+|  12 | Thu 02/14/19 | [**Bioinformatics in drug discovery and design**](#12) <br> Target identification, Lead identification, Small molecule docking methods, Protein motion and conformational variants, Molecular simulation and drug optimization                                                                                                                                                                                                                                            |
+|  13 | Tue 02/19/19 | [**Genome informatics and high throughput sequencing (Part 1)**](#13) <br> Genome sequencing technologies past, present and future; Biological applications of sequencing, Analysis of variation in the genome, and gene expression; The Galaxy platform along with resources from the EBI & UCSC; Sample Galaxy RNA-Seq workflow with FastQC and Bowtie2                                                                                                                 |
+|  14 | Thu 02/21/19 | [**Transcriptomics and the analysis of RNA-Seq data**](#14) <br> RNA-Seq aligners, Differential expression tests, RNA-Seq statistics, Counts and FPKMs and avoiding P-value misuse, Hands-on analysis of RNA-Seq data with R. <br> **N.B.** Find a gene assignment part 1 due today!                                                                                                                                                                                      |
+|  15 | Tue 02/26/19 | [**Genome annotation and the interpretation of gene lists**](#15) <br> Gene finding and functional annotation, Functional databases KEGG, InterPro, GO ontologies and functional enrichment                                                                                                                                                                                                                                                                               |
+|  16 | Thu 02/28/19 | [**Essential statistics for bioinformatics**](#16) <br> Everything you wanted to know about statistics for bioinformatics but were afraid to ask. Extensive R examples and applications.                                                                                                                                                                                                                                                                                  |
+|  17 | Tue 03/05/19 | [**Biological network analysis**](#17) <br> Network based approaches for integrating and interpreting large heterogeneous high throughput data sets; Discovering relationships in 'omics' data; Network construction, manipulation, visualization and analysis; Major graph theory and network topology measures and concepts (Degree, Communities, Shortest Paths, Centralities, Betweenness, Random graphs vs scale free); Hands-on with Cytoscape and igraph packages. |
+|  18 | Thu 03/07/19 | [**Cancer genomics**](#18) <br> Cancer genomics resources and bioinformatics tools for investigating the molecular basis of cancer. Mining the NCI Genomic Data Commons; Immunoinformatics and immunotherapy; Using genomics and bioinformatics to design a personalized cancer vaccine. Implications for personalized medicine. <br> **N.B.** Find a gene assignment due before next class!                                                                              |
+|  19 | Tue 03/12/19 | [**Course summary**](#19) <br> Summary of learning goals, Student course evaluation time and exam preparation; **Find a gene assignment due!**                                                                                                                                                                                                                                                                                                                            |
+|  20 | Thu 03/14/19 | [**Final exam!**](#20)                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+|  21 | Fri 03/15/19 | [**Bonus: Bioinformatics & Genomics in industry**](#21) <br> Join us at 1pm for an open discussion with leading industry based genomic scientists. Come prepared for networking and to have your questions about industry careers in Bioinformatics and Genomics answered!                                                                                                                                                                                                                                                                                               |
 
- 
 
 
 # Class material
@@ -66,7 +46,7 @@ Course introduction, Leaning goals & expectations, Biology is an information sci
 - Understand course scope, expectations, logistics and [ethics code]({{ site.baseurl }}/ethics/).  
 - Understand the increasing necessity for computation in modern life sciences research.  
 - Get introduced to how bioinformatics is practiced.  
-- Complete the [pre-course questionnaire](https://goo.gl/forms/bSYYSXzxW7Pb0Qz73).  
+- Complete the [pre-course questionnaire](https://goo.gl/forms/zv1mKce6Ysyc0tUd2).  
 - Setup your [laptop computer]({{ site.baseurl }}/setup/) for this course.  
 - The goals of the hands-on session is to introduce a range of core bioinformatics databases and associated online services whilst actively investigating the molecular basis of several common human disease.
 
@@ -75,15 +55,13 @@ Course introduction, Leaning goals & expectations, Biology is an information sci
 **Material**:  
 - Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/lecture1-BIMM143-large.pdf){:.no-push-state}, [Small PDF]({{ site.baseurl }}/class-material/lecture1-BIMM143-small.pdf){:.no-push-state},      
 - Lab: [Hands-on section worksheet]({{ site.baseurl }}/class-material/lecture1-BIMM143_F18.pdf){:.no-push-state}  
-- Feedback: [Muddy Point Assessment](https://goo.gl/forms/gMHFBsbkax64SN1a2){:.no-push-state},    
-- Feedback: [Responses](https://docs.google.com/forms/d/e/1FAIpQLSemV6lwIbzeNA52gmKwfzLin63m-881j-DDHpgVekWJNtU4Rg/viewanalytics){:.no-push-state}.  
+- Feedback: [Muddy Point Assessment](https://goo.gl/forms/XpsVnvZiJ3q7kzoG2){:.no-push-state},    
 
-- Handout: [Class Syllabus]({{ site.baseurl }}/class-material/BIMM143_F18_syllabus.pdf){:.no-push-state}  
+- Handout: [Class Syllabus]({{ site.baseurl }}/class-material/BIMM143_W19_syllabus.pdf){:.no-push-state}  
 - Computer [Setup Instructions]({{ site.baseurl }}/setup/).  
 
 **Homework**:  
-- [Questions](https://goo.gl/forms/tS94rrJNvoqPsJKE2){:.no-push-state},  
-- [Office Hours Sign Up](https://doodle.com/poll/pemmrpf49qygin26){:.no-push-state},  
+- [Questions](https://goo.gl/forms/nbqWkIomfHCpOXE13){:.no-push-state},  
 - Readings: 
   - PDF1: [What is bioinformatics? An introduction and overview]({{ site.baseurl }}/class-material/bioinformatics_review.pdf){:.no-push-state},  
   - PDF2: [Advancements and Challenges in Computational Biology]({{ site.baseurl }}/class-material/bioinformatics_challenges_2015.pdf){:.no-push-state}.  
@@ -134,12 +112,12 @@ Homology, Sequence similarity, Local and global alignment, Heuristic approaches,
 - Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/lecture2-BIMM143-large.pdf){:.no-push-state}, [Small PDF]({{ site.baseurl }}/class-material/lecture2-BIMM143-small.pdf){:.no-push-state},    
 - [Handout: Major Bioinformatics Databases]({{ site.baseurl }}/class-material/Major_Databases_BIMM143.pdf){:.no-push-state}  
 - Lab: [Hands-on section worksheet]({{ site.baseurl }}/class-material/lecture2-BIMM143_F18-lab.pdf){:.no-push-state}  
-- Feedback: [Muddy Point Assessment](https://goo.gl/forms/rB1eOCK1qhwAVjwL2){:.no-push-state}.   
-- Feedback: [Responses](https://docs.google.com/forms/d/e/1FAIpQLSfC84Hx43GAInuPaIF0kQJzj9pHqKJybZAzAGEasCu7lnIcSg/viewanalytics){:.no-push-state}.     
+- Feedback: [Muddy Point Assessment](https://goo.gl/forms/a9cRGyL1gM670AM03){:.no-push-state}.   
+     
 
 
 **Homework**:   
-- [Quiz Questions](https://goo.gl/forms/0a6IL2nS7ifxd1nA2){:.no-push-state},  
+- [Quiz Questions](https://goo.gl/forms/GShEbUxuAGwzI4Qj2){:.no-push-state},  
 - [Alignment Problem]({{ site.baseurl }}/class-material/lecture2-BIMM134_homework.pdf){:.no-push-state},  
 
 
@@ -655,5 +633,15 @@ Please remember to:
 - No copies of this exam are to be removed from the class-room.
 - No talking or communication (electronic to otherwise) with your fellow students once the exam has begun.
 - **Good luck!**  
+
+
+
+<hr>
+<a name="21"></a>
+<br>
+
+## 21: Bonus: Bioinformatics & Genomics in industry  
+
+Friday March 15th at 1pm come and enjoy a set of short open ended guest lectures from leading genomic scientists at Illumina Inc., Synthetic Genomics Inc., Samumed and the La Jolla Institute for Allergy and Immunology. Come prepared for networking and to have your questions about industry careers in Bioinformatics and Genomics answered.  
 
 
