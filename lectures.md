@@ -252,7 +252,7 @@ Detecting remote sequence similarity, Database searching beyond BLAST, PSI-BLAST
 
 **Material**:  
 - Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/lecture07-BIMM143-large.pdf){:.no-push-state}, [Small PDF]({{ site.baseurl }}/class-material/lecture07-BIMM143-small.pdf){:.no-push-state},  
-- [Collaborative Google Doc based notes on selected R packages](https://docs.google.com/document/d/1CDncv0mPBHoXpkQds0lD40sX32vM9EE_P01AG2MwzKo/edit?usp=sharing){:.no-push-state},    
+- [Collaborative Google Doc based notes on selected R packages](https://docs.google.com/document/d/1fKRuR-KLgcFZeoky3coLp2UaFaaYonCTWOJLTmlCMD0/edit?usp=sharing){:.no-push-state},    
 - [Introductory tutorial on R packages](https://www.datacamp.com/community/tutorials/r-packages-guide){:.no-push-state},  
 - Feedback: [Muddy point assessment](https://goo.gl/forms/wBXLNFE4iKMn1wv92){:.no-push-state}.      
 - SideNote: [Convincing with graphics](https://xkcd.com/833/){:.no-push-state}.   
