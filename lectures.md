@@ -326,9 +326,9 @@ The [**find-a-gene project**]({{ site.baseurl }}/class-material/Find_A_Gene_Proj
 
 You may wish to consult the scoring rubric at the end of the above linked project description and the [**example report**]({{ site.baseurl }}/class-material/Find_A_Gene_Project_Example.pdf){:.no-push-state} for format and content guidance.  
  
-Your responses to questions Q1-Q4 are due at the beginning of class **Thursday Nov 15th** (11/15/18)).   
+Your responses to questions Q1-Q4 are due at the beginning of class **Thursday Feb 21st** (02/21/19).   
 
-The complete assignment, including responses to all questions, is due at the beginning of class **Thursday Dec 4th** (12/04/18).  
+The complete assignment, including responses to all questions, is due at the beginning of class **Tuesday Mar 12th** (03/12/19).  
 
 Late responses will not be accepted under any circumstances.  
 
