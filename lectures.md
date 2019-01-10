@@ -111,7 +111,7 @@ Homology, Sequence similarity, Local and global alignment, Heuristic approaches,
 **Material**:  
 - Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/lecture2-BIMM143-large.pdf){:.no-push-state}, [Small PDF]({{ site.baseurl }}/class-material/lecture2-BIMM143-small.pdf){:.no-push-state},    
 - [Handout: Major Bioinformatics Databases]({{ site.baseurl }}/class-material/Major_Databases_BIMM143.pdf){:.no-push-state}  
-- Lab: [Hands-on section worksheet]({{ site.baseurl }}/class-material/lecture2-BIMM143_F18-lab.pdf){:.no-push-state}  
+- Lab: [Hands-on section worksheet]({{ site.baseurl }}/class-material/lecture2-BIMM143-lab.pdf){:.no-push-state}  
 - Feedback: [Muddy Point Assessment](https://goo.gl/forms/a9cRGyL1gM670AM03){:.no-push-state}.   
      
 
