@@ -1,27 +1,30 @@
 <!DOCTYPE html>
-<html><head>
-<meta http-equiv="content-type" content="text/html; charset=UTF-8"><style type="text/css">@charset "UTF-8";[ng\:cloak],[ng-cloak],[data-ng-cloak],[x-ng-cloak],.ng-cloak,.x-ng-cloak,.ng-hide{display:none !important;}ng\:form{display:block;}.ng-animate-block-transitions{transition:0s all!important;-webkit-transition:0s all!important;}.ng-hide-add-active,.ng-hide-remove{display:block!important;}</style>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <style type="text/css">@charset "UTF-8";[ng\:cloak],[ng-cloak],[data-ng-cloak],[x-ng-cloak],.ng-cloak,.x-ng-cloak,.ng-hide{display:none !important;}ng\:form{display:block;}.ng-animate-block-transitions{transition:0s all!important;-webkit-transition:0s all!important;}.ng-hide-add-active,.ng-hide-remove{display:block!important;}</style>
     <meta name="viewport" content="width=1100">
     <meta charset="utf-8">
-    <script async="" src="pca_part1/analytics.js"></script><script id="twitter-wjs" src="pca_part1/widgets.js"></script><script src="pca_part1/d3.js" charset="utf-8"></script>
+    <script src="pca_part1/d3.js" charset="utf-8"></script>
     <script src="pca_part1/angular.js" charset="utf-8"></script>
     <script src="pca_part1/common.js" charset="utf-8"></script>
     <link href="pca_part1/css.css" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="pca_part1/style.css" type="text/css">
-    <meta property="og:site_name" content="Explained Visually">
-    <meta name="twitter:site" content="@setosaio">
-    <meta property="og:image" content="/ev/principal-component-analysis/fb-thumb.png">
-    <meta property="og:title" content="Principal Component Analysis explained visually">
-    <title>Principal Component Analysis explained visually</title>
-    <meta name="twitter:creator" content="vicapow">
+    <title>PCA Introduction Part 1.</title>
     <link rel="stylesheet" href="pca_part1/style_002.css" type="text/css">
-  <script type="text/javascript" async="" src="pca_part1/embed.js"></script><script charset="utf-8" src="pca_part1/button.js"></script><link rel="prefetch" as="style" href="pca_part1/a_data_002/lounge.css"><link rel="prefetch" as="script" href="pca_part1/a_data_002/common.js"><link rel="prefetch" as="script" href="pca_part1/a_data_002/lounge.js"><link rel="prefetch" as="script" href="pca_part1/a_data_002/config.js"></head>
+    <script type="text/javascript" async="" src="pca_part1/embed.js"></script>
+    <script charset="utf-8" src="pca_part1/button.js"></script>
+    <link rel="prefetch" as="style" href="pca_part1/a_data_002/lounge.css">
+    <link rel="prefetch" as="script" href="pca_part1/a_data_002/common.js">
+    <link rel="prefetch" as="script" href="pca_part1/a_data_002/lounge.js">
+    <link rel="prefetch" as="script" href="pca_part1/a_data_002/config.js">
+  </head>
+
   <body ng-app="myApp" ng-controller="MainCtrl" class="ng-scope">
     <section class="title">
       <div class="title-region">
-        <h1 class="title">Principal Component Analysis</h1>
-        <h3 class="by-line">By <a href="http://thegrantlab.org/">Barry Grant</a> for <a href="http://thegrantlab.org/bimm143/">BIMM143</a>
-        </h3>
+        <h1 class="title"><a href="http://thegrantlab.org/bimm143/">BIMM143</a>: Introduction to Principal Component Analysis (Part 1)</h1>
+        <h3 class="by-line">By <a href="http://thegrantlab.org/">Barry Grant</a></h3>
 
       </div>
         <script type="text/javascript">
@@ -39,9 +42,10 @@
 
         </script>
       </div>
-      <p>Principal component analysis (PCA) is a technique used to
-emphasize variation and bring out strong patterns in a dataset.  It's
-often used to make data easy to explore and visualize.</p>
+      <p>Principal component analysis (PCA) is a well established "multivariate statistical technique" used to reduce the dimensionality of a complex data set to a more manageable number (typically 2D or 3D).
+        This method is particularly useful for highlighting strong paterns and relationships in large datasets (i.e. revealing major similarities and diferences) that are otherwise hard to visualize.
+        As we will see again and again in this course PCA is often used to make all sorts of bioinformatics data easy to explore and visualize.</p>
+
       <h1>2D example</h1>
       <p>First, consider a dataset in only two dimensions, like (height,
  weight). This dataset can be plotted as points in a plane. But if we
@@ -49,7 +53,7 @@ want to tease out variation, PCA finds a new coordinate system in which
 every point has a new (x,y) value. The axes don't actually mean anything
  physical; they're combinations of height and weight called "principal
 components" that are chosen to give one axes lots of variation.</p>
-      <p>Drag the points around in the following visualization to see PC coordinate system adjusts.</p>
+      <p>Drag the points around in the following visualization to see how the PC coordinate system (our new axis) adjusts.</p>
 
       <div style="text-align: center; width: 100%">
         <pca-d2>
@@ -73,8 +77,8 @@ component with most variation. We don't lose much by dropping <span style="color
     </section>
     <section>
       <h1>3D example</h1>
-      <p>With three dimensions, PCA is more useful, because it's hard to
- see through a cloud of data. In the example below, the original data
+      <p>With more dimensions, PCA is more useful. Even with 3 dimensions it can be hard to
+ see through a "cloud" of data. In the example below, the original data
 are plotted in 3D, but you can project the data into 2D through a
 transformation no different than finding a camera angle: rotate the axes
  to find the best angle. To see the "official" PCA transformation, click
@@ -91,12 +95,12 @@ we drop.</p>
     <section>
       <h1>Eating in the UK (a 17D example)</h1>
       <div style="text-align: left; width: 40%; display: block; float: left; clear: both"><small>Original example from Mark Richardson's class notes <a href="http://people.maths.ox.ac.uk/richardsonm/SignalProcPCA.pdf">Principal Component Analysis</a></small>
-        <p>What if our data have way more than 3-dimensions? Like, <b>17</b>
+        <p>What if our data have a few more dimensions? Like, <b>17</b>
  dimensions?! In the table is the average consumption of 17 types of
-food in grams per person per week for every country in the UK. </p>
+food in grams per person per week for every country in the UK. We will learn more about this data and analyze it ourselves in R in <a href="https://bioboot.github.io/bggn213_W19/class-material/lab-8-bggn213.html">Part 2</a>. </p>
         <p>The table shows some interesting variations across different
-food types, but overall differences aren't so notable. Let's see if PCA
-can eliminate dimensions to emphasize how countries differ.</p>
+food types, but overall differences aren't so notable even for this relatively small 17 dimensional dataset. Let's see if PCA
+can eliminate dimensions to more clearly highlight how countries differ.</p>
       </div>
       <div style="text-align: center; width: 60%; display: block; float: left">
         <defra-table>
@@ -125,6 +129,13 @@ Britain, see: <a href="https://www.youtube.com/watch?v=rNu8XDBSn10">this video</
         </defra-d2>
       </div><br><br>
     </section>
+
+    <p>This is the end of Part 1. Next we will continue our introduction to PCA
+      with some lecture material from Barry and then in <a href="https://bioboot.github.io/bggn213_W19/class-material/lab-8-bggn213.html">Part 2</a> we will examine some real life 
+      multivariate data in order to explain, in simple terms, what PCA achieves.
+      We will perform a principal component analysis of several different data sets
+      including RNA-Seq and proteomics data and examine the results.</p>
+      <br><br>
 
     <script type="text/javascript">
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){

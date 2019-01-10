@@ -48,17 +48,17 @@ section {
   padding: 12px;
 }
 section.title .title {
-  font-size: 6em;
-  margin-top: 0;
-  margin-bottom: 0;
+  font-size: 2em;
+  margin-top: 15px;
+  margin-bottom: 20px;
   color: #222222;
   font-weight: normal;
-  margin-left: -8px;
+  margin-left: 0px;
 }
 section.title .by-line {
   text-align: left;
   margin-top: 0;
-  margin-bottom: 0.5em;
+  margin-bottom: 20px;
   font-size: 1.5em;
   font-weight: 100;
   color: #c1c0c1;
@@ -87,7 +87,7 @@ h3 {
 }
 a,
 .link {
-  color: #e74c3c;
+  color: #4f86aa;
 }
 .explanation-summary {
   width: 100%;
