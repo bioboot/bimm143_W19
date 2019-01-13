@@ -40,7 +40,7 @@ All Lectures are Tu/Th 9:00-12:00 pm in TATA 2501 (<a href="https://goo.gl/maps/
 ## 1: Welcome to Bioinformatics and introduction to Bioinformatics databases and key online resources 
 
 **Topics**:  
-Course introduction, Leaning goals & expectations, Biology is an information science, History of Bioinformatics, Types of data, Application areas and introduction to upcoming course segments, Student 30-second introductions, Introduction to NCBI & EBI resources for the molecular domain of bioinformatics, Hands-on session using NCBI-BLAST, Entrez, GENE, UniProt, Muscle and PDB bioinformatics tools and databases. 
+Course introduction, Leaning goals & expectations, Biology is an information science, History of Bioinformatics, Types of data, Application areas and introduction to upcoming course segments, Introduction to NCBI & EBI resources for the molecular domain of bioinformatics, Hands-on session using NCBI-BLAST, Entrez, GENE, UniProt, Muscle and PDB bioinformatics tools and databases. 
 
 **Goals**: 
 - Understand course scope, expectations, logistics and [ethics code]({{ site.baseurl }}/ethics/).  
