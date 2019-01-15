@@ -145,13 +145,13 @@ Detecting remote sequence similarity, Database searching beyond BLAST, PSI-BLAST
  
  - Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/lecture3-BIMM143-large.pdf){:.no-push-state}, [Small PDF]({{ site.baseurl }}/class-material/lecture3-BIMM143-small.pdf){:.no-push-state},    
 - Lab: [Hands-on section worksheet]({{ site.baseurl }}/class-material/lecture3_BIMM143_F18-lab.pdf){:.no-push-state}  
-- Feedback: [Muddy Point Assessment](https://goo.gl/forms/rgIo0DmNZlaioSdm1){:.no-push-state}.   
-- Feedback: [Responses](https://docs.google.com/forms/d/e/1FAIpQLSdCuxK-O23Q31HdX1w0Bt7qM-6td8usRuVK1_8DkOBGDMI5GA/viewanalytics){:.no-push-state}.  
+- Feedback: [Muddy Point Assessment](https://goo.gl/forms/htL0o57Va4Ny2MwL2){:.no-push-state}.   
+  
 
 
 
 **Homework**:   
-- [DataCamp Sign Up: see your UCSD email invite!](https://www.datacamp.com/enterprise/bimm143_f18-bioinformatics/){:.no-push-state},  
+- [DataCamp Sign Up: see your UCSD email invite!](https://www.datacamp.com/enterprise/introduction-to-bioinformatics-bimm143-w19){:.no-push-state},  
 - [RStudio and R download and setup]({{ site.baseurl }}/setup/).  
 
 
@@ -177,7 +177,7 @@ Detecting remote sequence similarity, Database searching beyond BLAST, PSI-BLAST
 
 
 **Homework**:   
-- [DataCamp Signup!](https://www.datacamp.com/enterprise/bimm143_f18-bioinformatics/assignments){:.no-push-state}.    
+- [DataCamp Assignment: Into to R!](https://www.datacamp.com/enterprise/introduction-to-bioinformatics-bimm143-w19/assignments){:.no-push-state}.    
 
 
 
@@ -206,7 +206,7 @@ Detecting remote sequence similarity, Database searching beyond BLAST, PSI-BLAST
  
  
 **Homework**:   
-- This units homework is all [via **DataCamp** (see lecture 4 above)](https://www.datacamp.com/enterprise/bimm143_f18-bioinformatics/assignments){:.no-push-state}.   
+- This units homework is all [via **DataCamp** (see lecture 4 above)](https://www.datacamp.com/enterprise/introduction-to-bioinformatics-bimm143-w19/assignments){:.no-push-state}.   
  
 
 
@@ -233,7 +233,7 @@ Detecting remote sequence similarity, Database searching beyond BLAST, PSI-BLAST
 
 **Homework**:   
 - See **Q6** of the [hands-on lab sheet above]({{ site.baseurl }}/class-material/lecture6-BIMM143_F18.pdf){:.no-push-state}. This entails turning a supplied code snippet into a more robust and re-usable function that will take any of the three listed input proteins and plot the effect of drug binding. Note assessment rubric and submission instructions within document. (Submission deadline: 9am **Th, 10/25**).    
-- The remainder of this units homework is all [via **DataCamp**](https://www.datacamp.com/enterprise/bimm143_f18-bioinformatics/assignments){:.no-push-state}.   
+- The remainder of this units homework is all [via **DataCamp**](https://www.datacamp.com/enterprise/introduction-to-bioinformatics-bimm143-w19/assignments){:.no-push-state}.   
  
 
 
@@ -260,7 +260,7 @@ Detecting remote sequence similarity, Database searching beyond BLAST, PSI-BLAST
  
 **Homework**:   
  See **Q6** from the last days [hands-on lab sheet above]({{ site.baseurl }}/class-material/lecture6-BIMM143_F18.pdf){:.no-push-state}. This entails turning a supplied code snippet into a more robust and re-usable function that will take any of the three listed input proteins and plot the effect of drug binding. Note assessment rubric and submission instructions within document. (Submission deadline: 9am **Th, 05/08**).    
-- The remainder of this units homework is all [via **DataCamp**](https://www.datacamp.com/enterprise/bimm143_f18-bioinformatics/assignments){:.no-push-state}.   
+- The remainder of this units homework is all [via **DataCamp**](https://www.datacamp.com/enterprise/introduction-to-bioinformatics-bimm143-w19/assignments){:.no-push-state}.   
  
 
 
@@ -288,7 +288,7 @@ Practical considerations and best practices for the analysis of high dimensional
 - Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/lecture08-BIMM143-large.pdf){:.no-push-state}, [Small PDF]({{ site.baseurl }}/class-material/lecture08-BIMM143-small.pdf){:.no-push-state},  
 - Lab: [Hands-on section worksheet for PCA]({{ site.baseurl }}/class-material/UK_food_pca//){:.no-push-state}  
 - Data files: [UK_foods.csv]({{ site.baseurl }}/class-material/UK_foods.csv){:.no-push-state}.   
-- [Introduction to PCA site](http://setosa.io/ev/principal-component-analysis/){:.no-push-state}. 
+- [Introduction to PCA page](https://bioboot.github.io/bimm143_W19/class-material/pca/){:.no-push-state}. 
 - Feedback: [Muddy point assessment](https://goo.gl/forms/4u6HDbPyS4al9JpJ3){:.no-push-state}.  
 
  
