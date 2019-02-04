@@ -286,9 +286,9 @@ Practical considerations and best practices for the analysis of high dimensional
 
 **Material**:  
 - Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/lecture08-BIMM143-large.pdf){:.no-push-state}, [Small PDF]({{ site.baseurl }}/class-material/lecture08-BIMM143-small.pdf){:.no-push-state},  
-- Lab: [Hands-on section worksheet for PCA]({{ site.baseurl }}/class-material/UK_food_pca//){:.no-push-state}  
-- Data files: [UK_foods.csv]({{ site.baseurl }}/class-material/UK_foods.csv){:.no-push-state}.   
-- [Introduction to PCA page](https://bioboot.github.io/bimm143_W19/class-material/pca/){:.no-push-state}. 
+- WebApp: [Introduction to PCA]({{ site.baseurl }}/class-material/pca/){:.no-push-state},  
+- Lab: [Hands-on section worksheet for PCA]({{ site.baseurl }}/class-material/lab-8-bimm143.html){:.no-push-state},  
+- Data files: [UK_foods.csv]({{ site.baseurl }}/class-material/UK_foods.csv){:.no-push-state},   
 - Feedback: [Muddy point assessment](https://goo.gl/forms/4u6HDbPyS4al9JpJ3){:.no-push-state}.  
 
  
