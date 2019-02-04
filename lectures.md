@@ -289,7 +289,7 @@ Practical considerations and best practices for the analysis of high dimensional
 - WebApp: [Introduction to PCA]({{ site.baseurl }}/class-material/pca/){:.no-push-state},  
 - Lab: [Hands-on section worksheet for PCA]({{ site.baseurl }}/class-material/lab-8-bimm143.html){:.no-push-state},  
 - Data files: [UK_foods.csv]({{ site.baseurl }}/class-material/UK_foods.csv){:.no-push-state},   
-- Feedback: [Muddy point assessment](https://goo.gl/forms/4u6HDbPyS4al9JpJ3){:.no-push-state}.  
+- Feedback: [Muddy point assessment](https://docs.google.com/forms/d/e/1FAIpQLSdiQn7n6XvvRGq5AfQWaRa7G22-twFCN4bYNANCWSK09DBYZg/viewform){:.no-push-state}.  
 
  
 
