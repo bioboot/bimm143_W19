@@ -336,7 +336,10 @@ Late responses will not be accepted under any circumstances.
 Today’s lecture and hands-on sessions introduce Git, currently the most popular version control system. We will learn how to perform common operations with Git and RStudio. We will also cover the popular social code-hosting platforms GitHub and BitBucket.  
 
 - Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/lecture10-BIMM143_large.pdf){:.no-push-state}, [Small PDF]({{ site.baseurl }}/class-material/lecture10-BIMM143_small.pdf){:.no-push-state},  
-- Lab: [Hands-on with Git](http://tinyurl.com/rclass-github){:.no-push-state}  
+- Lab: [Hands-on with Git](http://tinyurl.com/rclass-github){:.no-push-state},  
+- Feedback: [Muddy-Point-Assesment](https://goo.gl/forms/gMxIBT5jLbjXHQPE2){:.no-push-state}.
+
+
 
 
 
