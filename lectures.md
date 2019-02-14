@@ -360,7 +360,9 @@ Today’s lecture and hands-on sessions introduce Git, currently the most popula
 **Material**:  
 - Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/lecture11-BIMM143-large.pdf){:.no-push-state}, [Small PDF]({{ site.baseurl }}/class-material/lecture11-BIMM143-small.pdf){:.no-push-state},  
 - Lab: [Hands-on section worksheet for VMD and Bio3D]({{ site.baseurl }}/class-material/lecture11-BIMM143_F18.pdf){:.no-push-state}  
-- Software links: [VMD download](http://www.ks.uiuc.edu/Development/Download/download.cgi){:.no-push-state},  [MUSCLE download](https://www.drive5.com/muscle/downloads.htm){:.no-push-state},  
+- Software links: [VMD download](http://www.ks.uiuc.edu/Development/Download/download.cgi){:.no-push-state},  [MUSCLE download](https://www.drive5.com/muscle/downloads.htm){:.no-push-state}, 
+- Alternate Windows install and setup cmd: `curl -o "muscle.exe" "https://www.drive5.com/muscle/downloads3.8.31/muscle3.8.31_i86win32.exe"`   
+- Alternative Mac install and setup cmd: `curl -o "/usr/local/bin/muscle" "http://thegrantlab.org/misc/muscle"; chmod +x /usr/local/bin/muscle`  
 - Feedback: [Muddy point assessment](https://goo.gl/forms/5eM3qYOhc2trBdUZ2){:.no-push-state}.   
 
 
