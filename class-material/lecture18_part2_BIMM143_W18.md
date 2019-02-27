@@ -7,13 +7,14 @@ title: BIMM-143, Lecture 18 (Part 2)
 Designing a personalized cancer vaccine
 ================
 
-**BIMM-143 Lecture 18:**  
-Barry Grant &lt; <http://thegrantlab.org> &gt;  
+[http://thegrantlab.org/bimm143/](http://thegrantlab.org/bimm143/)    
 Date: 2018-03-07 (15:24:21 PST on Wed, Mar 07)  
+[Barry Grant](http://thegrantlab.org) & 
+[Bjoern Peters](https://www.lji.org/faculty-research/labs/peters/).  
 {:.message}  
 
 
-**Notes**: To identify somatic mutations in a tumor, DNA from the tumor is sequenced and compared to DNA from normal tissue in the same individual using *variant calling algorithms*.  
+**Background**: To identify somatic mutations in a tumor, DNA from the tumor is sequenced and compared to DNA from normal tissue in the same individual using *variant calling algorithms*.  
 
 Comparison of tumor sequences to those from normal tissue (rather than ‘the human genome’) is important to ensure that the detected differences are not germline mutations.    
 
@@ -45,7 +46,7 @@ Your task is to identify tumor specific mutations that could potentially be used
 
 > **Q1**: **Identify sequence regions that contain all 9-mer peptides that are only found in the tumor**.  Hint: You will need to first identify the sites of mutation in the above sequences and then extract the surrounding subsequence region. This subsequence should encompass all possible 9-mers in the tumor derived sequence. In other words extract the subsequence from 8 residues before and 8 residues after all point mutations in the tumor sequence.
 
-You could simply align the above sequences using your favorite alignment method and then visually identify differences and extract the required subsequences. However, this apprach is error-prone and obviously will not scale to further examples (i.e. many additional proteins and 100s of mutations). 
+You could simply align the above sequences using your favorite alignment method and then visually identify differences and extract the required subsequences. However, this approach is error-prone and obviously will not scale to further examples (i.e. many additional proteins and 100s of mutations). 
 
 If you are motivated to use your new R coding skills to address this question (and you should be!) then you may be interested in the following [example analysis]({{ site.baseurl }}//class-material/lecture18_part2_example/){:.no-push-state}. However, we encourage you to **try on your own first** before consulting this worked example.  
 
@@ -63,7 +64,7 @@ HLA-B*35:01
 ~~~
 
 
-To prioritize which of the mutations in a tumor should be included in a vaccine, they can be scanned for those resulting in mutated peptides that bind HLA molecules of the patient with high affinity. This is done using **HLA binding algorithms** generated using machine learning algorithms trained on large sets of experimentally determined peptide:HLA binding data. We will here use algorithms developed as part of the **Immune Epitope Database (IEDB)** project hosted at the La Jolla Institute for Allergy and Immunology.  
+To prioritize which of the mutations in a tumor should be included in a vaccine, they can be scanned for those resulting in mutated peptides that bind HLA molecules of the patient with high affinity. This is done using **HLA binding algorithms** generated using machine learning algorithms trained on large sets of experimentally determined peptide:HLA binding data. We will here use algorithms developed by the Peters lab as part of the **Immune Epitope Database (IEDB)** project hosted at the La Jolla Institute for Allergy and Immunology.  
 
 See: IEDB HLA binding prediction website [http://tools.iedb.org/mhci/](http://tools.iedb.org/mhci/){:.no-push-state}.  
 
@@ -79,6 +80,6 @@ Any peptide resulting from a mutation should be checked if it is present in othe
 > **Q4**: **Are any of your top ranked peptides unique to the tumor?** Hint: Use [NCBI-BLAST](https://blast.ncbi.nlm.nih.gov/Blast.cgi?PAGE=Proteins){:.no-push-state} to check your top identified peptides against Human sequences in the NR database.
 
  
-> **Q5**: **Which peptide would you choose for potential vaccine design?** 
+> **Q5**: **Which peptide would you choose for potential vaccine design and why?** 
 
 
