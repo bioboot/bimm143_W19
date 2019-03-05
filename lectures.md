@@ -580,6 +580,7 @@ Today’s lecture and hands-on sessions introduce Git, currently the most popula
 - Appreciate that the igraph R package has extensive network analysis functionality beyond that in Cytoscape and that the R bioconductor package RCy3 package allows us to bring networks and associated data from R to Cytoscape so we can have the best of both worlds. 
 
 **Material**:  
+- Software Download: [Cytoscape](https://cytoscape.org/download.html){:.no-push-state},  
 - Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/lecture17_BIMM143-large.pdf){:.no-push-state}, [Small PDF]({{ site.baseurl }}/class-material/lecture17_BIMM143-small.pdf){:.no-push-state}.  
 - [Hands-on section worksheet Part 1.]({{ site.baseurl }}/class-material/lecture17_BIMM143_S18_lab1.pdf){:.no-push-state}  
 - [Hands-on section worksheet Part 2.]({{ site.baseurl }}/class-material/lecture17_BIMM143_W18/){:.no-push-state}  
