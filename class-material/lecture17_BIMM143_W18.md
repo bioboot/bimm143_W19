@@ -89,7 +89,7 @@ These functions are a convenient way to verify a connection to Cytoscape and for
 
 ``` r
 library(RCy3)
-cwd <- demoSimpleGraph()
+cwd <- makeSimpleGraph()
 ```
 
     ## [1] "type"
@@ -114,7 +114,7 @@ possible.layout.names <- getLayoutNames(cwd)
 layoutNetwork (cwd, possible.layout.names[1])
 
 # Test the connection to Cytoscape.
-ping(cwd)
+cytoscapePing(cwd)
 ```
 
     ## [1] "It works!"
