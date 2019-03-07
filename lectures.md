@@ -615,6 +615,9 @@ Today’s lecture and hands-on sessions introduce Git, currently the most popula
   - [Solutions.pdf]({{ site.baseurl }}/class-material/Lecture18_part2_solutions.pdf){:.no-push-state}.  
 - IEDB HLA binding prediction website [http://tools.iedb.org/mhci/](http://tools.iedb.org/mhci/){:.no-push-state}.  
 
+- [Muddy point assessment](https://goo.gl/forms/fAvxn6xJOUDO5WQR2){:.no-push-state}.  
+
+
 <hr>
 <a name="19"></a>
 <br>
