@@ -604,7 +604,7 @@ Today’s lecture and hands-on sessions introduce Git, currently the most popula
 **Topics**: Cancer genomics resources and bioinformatics tools for investigating the molecular basis of cancer. Large scale cancer sequencing projects; NCI Genomic Data Commons; What has been learned from genome sequencing of cancer? **Immunoinformatics, immunotherapy  and cancer**; Using genomics and bioinformatics to harness a patient’s own immune system to fight cancer. Implications for the development of personalized medicine.
 
 **Material**: 
-- Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/Lecture18_BIMM143_F18-large.pdf){:.no-push-state}, [Small PDF]({{ site.baseurl }}/class-material/Lecture18_BIMM143_F18-small.pdf){:.no-push-state}.  
+- Lecture Slides: [Pt1 Large PDF]({{ site.baseurl }}/class-material/Lecture18_BIMM143_W19_Barry-large.pdf){:.no-push-state}, [Pt1. Small PDF]({{ site.baseurl }}/class-material/Lecture18_BIMM143_W19_Barry-small.pdf){:.no-push-state}, [Pt2 Large PDF]({{ site.baseurl }}/class-material/Lecture18_BIMM143_W19_Bjoern-large.pdf){:.no-push-state}.  
 - [Hands-on section worksheet Part 1.]({{ site.baseurl }}/class-material/lecture18_part1_BIMM143_W18.html){:.no-push-state}  
 - [Hands-on section worksheet Part 2.]({{ site.baseurl }}/class-material/lecture18_part2_BIMM143_W18/){:.no-push-state}  
 - Data files:  
@@ -612,7 +612,7 @@ Today’s lecture and hands-on sessions introduce Git, currently the most popula
 - Solutions:  
   - Example [mutant identification and subsequence extraction with R]({{ site.baseurl }}/class-material/lecture18_part2_example/){:.no-push-state} walk through.    
   - [subsequences.fa]({{ site.baseurl }}/class-material/subsequences.fa){:.no-push-state},  
-  - [Solutions.pdf]({{ site.baseurl }}/class-material/Solutions.pdf){:.no-push-state}.  
+  - [Solutions.pdf]({{ site.baseurl }}/class-material/Lecture18_part2_solutions.pdf){:.no-push-state}.  
 - IEDB HLA binding prediction website [http://tools.iedb.org/mhci/](http://tools.iedb.org/mhci/){:.no-push-state}.  
 
 <hr>
